@@ -11,11 +11,7 @@ Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 
 clear
-apt update
-apt upgrade
-pkg install python
-pkg install python2
-clear
+
 #tack
     echo " "
     echo -e "$Red 
