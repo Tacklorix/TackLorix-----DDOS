@@ -63,15 +63,15 @@ $Red⠘⠛⠛⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
 
     read ch
    if [ $ch -eq 1 ];then
-     DDOS1.py  
+     python DDOS1.py  
 
         exit
     elif [ $ch -eq 2 ];then 
-    DDOS2.py
+    python DDOS2.py
         
         exit
     elif [ $ch -eq 3 ];then
-     DDOS3.py
+     python DDOS3.py
         
     
     else
