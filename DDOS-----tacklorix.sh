@@ -59,7 +59,7 @@ $Red⠘⠛⠛⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
 
 
 
-  $Yellow enter your ddos number $Red($Yellow 1$Red/$Yellow 2$Red /$Yellow 3$Red ) ?"
+  $Yellow enter your ddos number $Red($Yellow 1$Red/$Yellow 2$Red /$Yellow 3$Red ) ? "
 
     read ch
    if [ $ch -eq 1 ];then
