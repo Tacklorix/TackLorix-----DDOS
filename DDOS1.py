@@ -50,7 +50,7 @@ def ddos():
  
     try:
         print(Fore.CYAN+Style.BRIGHT+"Comprobando conexion a internet.... "+Fore.RESET)
-        for i in tqdm(range(30000)):
+        for i in tqdm(range(100)):
             print(end=Fore.MAGENTA+Style.BRIGHT+'\r')
 
         time.sleep(1)
@@ -65,7 +65,7 @@ def ddos():
             print (" ")
             print (" ")
             print(Fore.GREEN+Style.BRIGHT+"  1 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with Domin site "+Fore.GREEN+Style.BRIGHT+"\n\n  2 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with IP site ")
-            opt=str(input(Fore.RED+Style.BRIGHT+"\n\n nenter number for DDOS ? "+Fore.RESET))
+            opt=str(input(Fore.GREEN+Style.BRIGHT+"\n\n nenter number for DDOS ? "+Fore.RESET))
             if opt=='1':
                 domain=str(input(Fore.CYAN+Style.BRIGHT+" enter domin terget site : "+Fore.RESET))
                 ip=socket.gethostbyname(domain)
@@ -88,7 +88,7 @@ def ddos():
         time.sleep(2)
 
         print(Fore.RED+Back.LIGHTGREEN_EX+" Tack Lorix "+Style.RESET_ALL)
-        for i in tqdm(range(30000)):
+        for i in tqdm(range(100)):
             print(end=Fore.MAGENTA+'\r')
         time.sleep(1)
         sent = 0
