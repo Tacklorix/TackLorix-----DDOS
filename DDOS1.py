@@ -50,7 +50,7 @@ def ddos():
  
     try:
         print(Fore.CYAN+Style.BRIGHT+"Comprobando conexion a internet.... "+Fore.RESET)
-        for i in tqdm(range(100)):
+        for i in tqdm(range(1000)):
             print(end=Fore.MAGENTA+Style.BRIGHT+'\r')
 
         time.sleep(1)
@@ -88,7 +88,7 @@ def ddos():
         time.sleep(2)
 
         print(Fore.RED+Back.LIGHTGREEN_EX+" Tack Lorix "+Style.RESET_ALL)
-        for i in tqdm(range(100)):
+        for i in tqdm(range(1000)):
             print(end=Fore.MAGENTA+'\r')
         time.sleep(1)
         sent = 0
