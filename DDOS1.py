@@ -62,8 +62,8 @@ def ddos():
     try:
         while True:
             banner()
-            print(Fore.GREEN+Style.BRIGHT+"1."+Style.RESET_ALL+Fore.YELLOW+" Dominio del sitio web"+Fore.GREEN+Style.BRIGHT+"\n2."+Style.RESET_ALL+Fore.YELLOW+" Dirección IP"+Fore.GREEN+Style.BRIGHT+"\n3."+Style.RESET_ALL+Fore.YELLOW+" Salir")
-            opt=str(input(Fore.RED+Style.BRIGHT+"\n>>> "+Fore.RESET))
+            print(Fore.GREEN+Style.BRIGHT+"1 /> "+Style.RESET_ALL+Fore.YELLOW+" DDOS with Domin site "+Fore.GREEN+Style.BRIGHT+"\n2 />."+Style.RESET_ALL+Fore.YELLOW+" DDOS with IP site ")
+            opt=str(input(Fore.RED+Style.BRIGHT+"\nenter number for DDOS ? "+Fore.RESET))
             if opt=='1':
                 domain=str(input(Fore.CYAN+Style.BRIGHT+"Ingrese el sitio web(ej:google.com):"+Fore.RESET))
                 ip=socket.gethostbyname(domain)
