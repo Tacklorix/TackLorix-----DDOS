@@ -53,8 +53,7 @@ $White■□■□■□■□■□■□■□■□■□■□■□■□�
 
 
 
-$Green  1 />$Yellow If you understand  enter 1  Then enter the command according to the guide  for start ddos$Red :$White 
-    "
+$Green  1 />$Yellow If you understand  enter 1  Then enter the command according to the guide  for start ddos$Red :$White "
 
     read ch
    if [ $ch -eq 1 ];then 
