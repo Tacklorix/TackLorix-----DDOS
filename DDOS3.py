@@ -9,31 +9,6 @@ from rich.markdown import Markdown
 from rich.progress import track
 from rich.console import Console
 
-H = '\033[95m'
-B = '\033[94m'
-G = '\033[92m'
-W = '\033[93m'
-F = '\033[91m'
-E = '\033[0m'
-U = '\033[4m'
-O = '\033[33m'
-
-
-def tacklorix():
-	print (E+F+"""
-⠀         ⢻⣿⣿⣿⣿⣦
-⠀           ⢿⣿⣿⣿⣿⣷⣄⣀⣀⣀⣀⣀⣀
-⠀        ⣠⣴⣾⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠷⠶⠶⠤⢤⣀
-⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀  ⠀"""+W+'DDOS'+E+F+"""⠀⠀ ⠀⠀⠀⣿⣿⣷⣦⣄⡀
-⠀        ⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀"""+W+'⠀Domin'+E+F+"""⠀⠀⠀⠀⠀⣿⣿⣿⠿⠛
-⠀        ⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠟⠛⠉
-⠀⠀⠀        ⣸⣿⣿⣿⣿⣿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠉
-⠀⠀        ⢰⣿⣿⣿⣿⡿⠃
-⠀       ⠀⠉⠉⠉⠉⠉""")
-
-
-
-
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 target = ""
 ports = 0 
