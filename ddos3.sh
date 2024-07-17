@@ -41,4 +41,3 @@ $Green  />$Yellow If you understand  enter 1  Then enter the command according t
 
         exit
      #lorix
-done
