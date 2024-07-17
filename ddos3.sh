@@ -1,3 +1,4 @@
+
 Black="\033[1;30m"       # Black
 Red="\033[1;31m"         # Red 
 Green="\033[1;32m"       # Green
@@ -39,16 +40,6 @@ $Green  />$Yellow If you understand  enter 1  Then enter the command according t
    if [ $ch -eq 1 ];then 
 
         exit
-    elif [ $ch -eq 2 ];then 
-   
-        
-        exit
-    elif [ $ch -eq 3 ];then
-    
-        
-    
-    else
-        echo -e "\e[4;32m Invalid Input !!! \e[0m"
-        pause #lorix
+ #lorix
     fi
 done
