@@ -173,7 +173,7 @@ def down_it(item):
 				s.shutdown(1)
 				global already_connected_true
 				already_connected_true +=1
-				console.print(f"attacks [{already_connected_true}] The attack succeeded {time.ctime(time.time())} !!!!",style="bold green")
+				console.print(f"attacks [{already_connected_true}] The attack succeeded {time.ctime(time.time())} !!!!",style="bold red")
 			else:
 				global already_connected_false
 				already_connected_false +=1
