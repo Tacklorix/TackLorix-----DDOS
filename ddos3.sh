@@ -40,6 +40,4 @@ $Green  />$Yellow If you understand  enter 1  Then enter the command according t
    if [ $ch -eq 1 ];then 
 
         exit
- #lorix
-    fi
 done
