@@ -27,7 +27,10 @@ $Cyan  Advanced DDOS Guide
   for determine  $Red($Cyan port & level DDOS$Red )$Cyan for DDOS to target IP 
 
 
-  
+
+
+
+
 $Purple sample Instruction$Red :$Green python DDOS-tacklorix.py -i □ -p ■ -l ●
 
 $Purple instead □$Red :$Green enter IP site Target 
@@ -35,6 +38,9 @@ $Purple instead □$Red :$Green enter IP site Target
 $Purple instead ■$Red :$Green enter desired Port 
 
 $Purple instead ●$Red :$Green  enter Level DDOS to site
+
+
+
 
 
 
