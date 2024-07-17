@@ -40,16 +40,5 @@ $Green  />$Yellow If you understand  enter 1  Then enter the command according t
    if [ $ch -eq 1 ];then 
 
         exit
-    elif [ $ch -eq 2 ];then 
-    python DDOS2.py
-        
-        exit
-    elif [ $ch -eq 3 ];then
-    bash ddos3.sh
-        
-    
-    else
-        echo -e "\e[4;32m Invalid Input !!! \e[0m"
-        pause #lorix
-    fi
+     #lorix
 done
