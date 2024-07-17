@@ -297,7 +297,6 @@ def run():
     os.system("clear")
     usage()
     usage3()
-    usage2()
     for step in track(range(100),description="Starting ...."):
         sleep(.1)
     while True:
