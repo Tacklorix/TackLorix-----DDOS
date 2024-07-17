@@ -292,12 +292,12 @@ def run():
     Level : {levels}
     Fake ip : {fake_ip}
        """)
-    for step in track(range(1500),description="Wait ...."):
+    for step in track(range(1500),description=" run DDOS tacklorix"):
         sleep(.001)
     os.system("clear")
     usage()
     usage3()
-    for step in track(range(100),description="Starting ...."):
+    for step in track(range(100),description="Starting DDOS"):
         sleep(.1)
     while True:
         for i in range(int(levels)):
