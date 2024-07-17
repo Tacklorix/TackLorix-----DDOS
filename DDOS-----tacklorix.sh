@@ -70,7 +70,7 @@ $Red⠘⠛⠛⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
         
         exit
     elif [ $ch -eq 3 ];then
-    ddos3
+    bash ddos3.sh
         
     
     else
