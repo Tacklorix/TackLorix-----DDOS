@@ -23,6 +23,7 @@ clear
    ⠀    ⢰⣿⣿⣿⣿⡿⠃
 ⠀   ⠀  ⠉⠉⠉⠉⠉
 
+
 $Cyan  Advanced DDOS Guide
   for determine  $Red($Cyan port & level DDOS$Red )$Cyan for DDOS to target IP 
 
@@ -30,9 +31,8 @@ $Cyan  Advanced DDOS Guide
 
 
 
+
 $White■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■
-
-
 
 
 
@@ -46,9 +46,8 @@ $Purple instead ●$Red :$Green  enter Level DDOS to site
 
 
 
-
-
 $White■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■
+
 
 
 
