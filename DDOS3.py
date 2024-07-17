@@ -133,12 +133,12 @@ def attack(item):
                          
                          global already_connected_true
                          already_connected_true +=1
-                         console.print(f"attacks [{already_connected_true}] The attack succeeded port[{ports}] server[{target}] level[{levels}] !!!!",style="bold red")
+                         console.print(f"attacks [{already_connected_true}] The attack succeeded port[{ports}] server[{target}] level[{levels}] !!!!",style="white red")
                      
                      except:
                          global already_connected_false
                          already_connected_false +=1
-                         console.print(f"attacks [{already_connected_false}] Faced Attack port[{ports}] server[{target}] level[{levels}] ",style="bold red")
+                         console.print(f"attacks [{already_connected_false}] Faced Attack port[{ports}] server[{target}] level[{levels}] ",style="white red")
                          s.close()
 #DDOS 1 NOT MS                   
 def attack_2(item):
