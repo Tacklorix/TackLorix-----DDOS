@@ -241,7 +241,7 @@ def dos_3():
 def usage():
     console = Console()
     MARKDOWN=("""
-         	     Klar DDos Script V 1.1            """)
+    />  Tack Lorix             """)
     md = Markdown(MARKDOWN)
     console.print(md,style="bold green")   
     
@@ -252,7 +252,7 @@ def usage1():
     console = Console()
     MARKDOWN="""
          	        
-	usage : python KlarDdos.py [-i] [-p] [-l]
+	usage : python DDOS3.py [-i] [-p] [-l]
         	-h : help
         	-i : server ip
         	-p : port server 
@@ -260,22 +260,12 @@ def usage1():
         	-f : Fake ip
             -d : Hide message
 	example :
-	    python KlarDdos.py -i 92.204.214.136 -p 80 -l 2"""
+	    python DDOS3.py -i 92.204.214.136 -p 80 -l 2"""
     md = Markdown(MARKDOWN)
     console.print(md,style="bold green")
     #sys.exit()
 
 
-
-
-def usage2():
-    console = Console()
-    MARKDOWN2="""
-    
-                        خرا ع اخرائيل.        
-    """
-    md = Markdown(MARKDOWN2)
-    console.print(md,style="bold green")
     
     
     
@@ -283,11 +273,9 @@ def usage2():
 def usage3():
     console = Console()
     MARKDOWN="""
-    Programmer : Dr Data
-    Made in : YEMEN
-    Telegram : https://t.me/kali_linux_ar
-    github : https://github.com/Dr-Data2/KlarDDos
-    Tool Information : I was specially made to destroy Israel   
+    my ID Telegram = @tacklorix
+
+    ID my channel Telegram = @Filtering_Hacking
 """
     md = Markdown(MARKDOWN)
     console.print(md,style="bold green")
